@@ -1,0 +1,67 @@
+body{
+    background: hsl(187, 7%, 30%);
+    color: white;
+   }
+
+h1{
+    text-align: center;
+  }
+
+  p{
+      font-size: 1.5em;
+  }
+
+ 
+.main{
+    width: 80%;
+    margin: auto;
+    background: hsl(187, 83%, 38%);
+    border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.labels{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.inputs{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.reverse-labels{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.divisions{
+    display: block;
+    margin: 3vh;
+}
+
+
+#name, #email, #number, #dropdown{
+    height: 4vh;
+}
+
+#submit{
+    background: hsl(187, 7%, 30%);
+    color: white; 
+    width: auto;
+    height: 4vh;
+    border: 2px white solid;
+    border-radius: 5px;
+
+
+}
+
+
+

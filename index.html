@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1 id="title">Pet Owner's Survey</h1>
+
+<div class="main">
+        
+        <p id="description">Are you a Cat person or a Dog person?</p>
+        <form action="#" id="survey-form">
+            
+            <div class="divisions">
+                    <label for="name" id="name-label" class="labels">Your super cool name : </label>
+                    <input type="text" id="name" class="inputs" placeholder="Enter your name here..." required>
+            </div>
+
+            <div class="divisions">
+                    <label for="email" id="email-label" class="labels">Your super cool email id : </label>
+                    <input type="email" id="email" class="inputs" placeholder="Enter your email id here..." required>
+            </div>
+            
+            <div class="divisions">
+                <label for="dropdown" id="dropdown-label" class="labels">What best describes you? : </label>
+                <select id="dropdown" class="inputs">
+                        <option vaue="">--select an option--</option>
+                        <option value="Cats only">I am a cat person.</option>
+                        <option value="Dogs only">I am a dog person.</option>
+                        <option value="both">I love both Cats and Dogs.</option>
+                        <option value="neither">I hate pets!!</option>
+                </select>
+            </div>
+            
+            <div class="divisions">
+                <label for="number" id="number-label" class="labels">Number of Pets you own : </label>
+                <input type="number" id="number" class="inputs" min="0" max="5" placeholder="Enter a count of pets you own">
+            </div>
+            
+               
+
+            <div class="divisions">
+                <label class="labels">Which of the following is true of pets you own? : </label>
+                <div class="reverse-labels">
+                        <label><input type="checkbox" name="PetsOwned" value="All my pets are cats.">All my pets are cats.</label><br>
+                        <label><input type="checkbox" name="PetsOwned" value="All my pets are dogs.">All my pets are dogs.</label><br>
+                        <label><input type="checkbox" name="PetsOwned" value="I have a mix of cats and dogs.">I have a mix of cats and dogs.</label><br>
+                        <label><input type="checkbox" name="PetsOwned" value="I don't own a pet yet but would soon own one.">I don't own a pet yet but would soon own one.</label><br>
+                        <label><input type="checkbox" name="PetsOwned" value="Someone else owns the pet in my house.">Someone else owns the pet in my house.</label>
+                </div>
+            </div>
+       
+        
+            <div class="divisions">
+                    <label class="labels">Why do you love cats?</label>
+                    <div class="reverse-labels">
+                        <label><input type="radio" name="CatLoveReasons" value="Cats are cutest thing in the entire God's green planet!!">Cats are cutest thing in the entire God's green planet!!</label><br>
+                        <label><input type="radio" name="CatLoveReasons" value="Cats are Gods.">Cats are Gods.</label><br>
+                        <label><input type="radio" name="CatLoveReasons" value="My cat waits for me when I'm gone.">My cat waits for me when I'm gone.</label><br>
+                        <label><input type="radio" name="CatLoveReasons" value="A Cat will always keep surprising you.">A Cat will always keep surprising you.</label><br>
+                        <label><input type="radio" name="CatLoveReasons" value="I don't love cats.">I don't love cats.</label>
+                    </div>
+                    
+                </div>
+            
+                <div class="divisions">
+                    
+                    <label class="labels">Why do you love dogs?</label>
+                    <div class="reverse-labels">
+                        <label><input type="radio" name="DogLoveReasons" value="Dogs are Good Bois.">Dogs are Good Bois.</label><br>
+                        <label><input type="radio" name="DogLoveReasons" value="My Dog follows me wherever I go.">My Dog follows me wherever I go.</label><br>
+                        <label><input type="radio" name="DogLoveReasons" value="My Dog is always there for me in my best and worst days.">My Dog is always there for me in my best and worst days.</label><br>
+                        <label><input type="radio" name="DogLoveReasons" value="The best house security and My best friend.">The best house security and My best friend.
+                            </label><br>
+                            <label><input type="radio" name="DogLoveReasons" value="I don't love dogs.">I don't love dogs.</label>
+                    </div>
+                   
+                </div>
+                
+                <div class="divisions">   
+                    <label class="labels">Why do you hate cats?</label>
+                    <div class="reverse-labels">
+                        <label><input type="radio" name="CatHateReasons" value="Cats are assholes!!">Cats are assholes!!</label><br>
+                        <label><input type="radio" name="CatHateReasons" value="Cats are evil.">Cats are evil.</label><br>
+                        <label><input type="radio" name="CatHateReasons" value="A cat once tried to kill me in sleep.">A cat once tried to kill me in sleep.</label><br>
+                        <label><input type="radio" name="CatHateReasons" value="I don't hate cats, I am just not fond of them.">I don't hate cats, I am just not fond of them.</label>
+
+                    </div>
+                   
+                </div>
+
+                <div class="divisions">        
+                    <label class="labels">Why do you hate dogs?</label>
+                    <div class="reverse-labels">
+                        <label><input type="radio" name="DogHateReasons" value="Dogs are retards.">Dogs are retards.</label><br>
+                        <label><input type="radio" name="DogHateReasons" value="Dogs pees everywhere.">Dogs pees everywhere.</label><br>
+                        <label><input type="radio" name="DogHateReasons" value="A dog once shit on my bed.">A dog once shit on my bed.</label><br>
+                        <label><input type="radio" name="DogHateReasons" value="I don't hate dogs, I am just not fond of them.">I don't hate dogs, I am just not fond of them.</label>
+                    </div>
+                    
+                        
+            </div>
+            
+            
+            <div class="divisions">
+                    <label for="textarea" class="labels">Tell us why you think your pet is the best:</label>
+                    <textarea id="textarea" cols="30" rows="10" class="inputs"></textarea>
+            </div>
+           
+            <div class="divisions">
+                    <button type="submit" id="submit">Send us your feeback.</button>
+            </div>
+            
+            
+            
+        </form>
+        
+</div>
+
+</body>
+</html>
